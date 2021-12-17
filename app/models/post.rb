@@ -5,8 +5,8 @@ class Post < ApplicationRecord
     validate :category_type
 
     def category_type
-        if category !== "Non-Fiction" || "Fiction"
-            errors.add(:category, "Error!")
-        end
+        # if category !== "Non-Fiction" || "Fiction"
+        #     errors.add(:category, "Error!")
+        # end
     end
 end
